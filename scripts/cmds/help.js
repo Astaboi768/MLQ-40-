@@ -4,7 +4,7 @@ const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
 
-const doNotDelete = "🎀 | 𝑱𝑶𝒀𝑳𝒀𝑵𝑬 𝑨𝑰"; // Decoy string
+const doNotDelete = "🎀 | ƁR̃ÔƘÊÑ ÃÎ"; // Decoy string
 
 module.exports = {
   config: {
@@ -53,7 +53,7 @@ module.exports = {
 
       msg += createColumns(firstHalfCategories, secondHalfCategories, categories);
 
-      msg += `\n•✨ | 𝑮𝒓𝒊𝒍𝒍𝒆𝒅'𝒔 𝑨𝒊𝑩𝒐𝑻\n• Total Commands: ${commands.size}`;
+      msg += `\n•✨ | Broken Ai\n• Total Commands: ${commands.size}`;
 
       await message.reply({ body: msg });
     } else {
